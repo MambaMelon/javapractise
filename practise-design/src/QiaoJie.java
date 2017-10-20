@@ -43,6 +43,7 @@ class BMWVehicle extends AbstractVehicleBrand{
 
     @Override
     public void open() {
+
         navigator.work();
     }
 
